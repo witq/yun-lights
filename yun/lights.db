@@ -1,0 +1,6 @@
+{"name":"przy_kanapie","type":"SW","codes":{"on":[9199796,8509044,8860484,8408884],"off":[8957204,9015588,9067172,9309332]},"_id":"KNXebeXud0HsGP3c","state":"on"}
+{"name":"regal","type":"SW","codes":{"on":[8509052,8860492,8408892,9199804],"off":[9067180,9309340,8957212,9015596]},"_id":"vi08erNqGNJhcaiT","state":"on"}
+{"name":"przy_kanapie","type":"SW","codes":{"on":[9199796,8509044,8860484,8408884],"off":[8957204,9015588,9067172,9309332]},"_id":"KNXebeXud0HsGP3c","state":"off"}
+{"name":"regal","type":"SW","codes":{"on":[8509052,8860492,8408892,9199804],"off":[9067180,9309340,8957212,9015596]},"_id":"vi08erNqGNJhcaiT","state":"off"}
+{"name":"regal","type":"SW","codes":{"on":[8509052,8860492,8408892,9199804],"off":[9067180,9309340,8957212,9015596]},"_id":"vi08erNqGNJhcaiT","state":"on"}
+{"name":"regal","type":"SW","codes":{"on":[8509052,8860492,8408892,9199804],"off":[9067180,9309340,8957212,9015596]},"_id":"vi08erNqGNJhcaiT","state":"off"}

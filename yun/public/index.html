@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO lights</title>
+  </head>
+  <body>
+    <h2>History</h2>
+    <ul id="history"></ul>
+  </body>
+  <script src="http://arduino.local:8080/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    var socket = io();
+    socket.on('switch:switched', function(data){
+      $('#history').append($('<li>').text([data.data.type, data.data.signal, data.response].join(' ')));
+      console.log('switched', data);
+    });
+    socket.on('config:hello', function(data) {
+      console.log('current state', data);
+    })
+    socket.on('config:added', function(data) {
+      console.log('added ', data);
+    })
+  </script>
+</html>
